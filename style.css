@@ -1,0 +1,143 @@
+/*import fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*css body*/
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+/*Navbar css*/
+.navMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 200px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 20px;
+  height: 20px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(240px);
+  transform: translateX(240px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(450px);
+  transform: translateX(450px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+/*css h1 to new3*/
+.cont{
+  width: 100px;
+}
+/*css big div contact*/
+.new3 p{
+  width: 150px;
+}
+.new3{
+  color: #f6f4e6;
+ background-color: #d6c5c573;
+width:370px;
+margin: 100px 100px 00px 400px;
+}
+/*css to nav bar home page and contact and our services*/
+.new2{
+  background-color: #272727 !important;
+  color: #f6f4e6 !important;
+border-radius: 30px !important;
+}
+#a1{
+  padding: 60px;
+  margin: 30px 00px 100px 170px;
+  justify-content: center;
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 200px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+}
+#a1:hover {
+  color: #fddb3a;
+}
+/*css div new1 to home page*/
+.new1{
+  justify-content: center;
+  display: flex;
+ justify-content: space-around;
+}
+/*css all img class img1*/
+.img1{
+  width: 200px;
+  height: 100px;
+  border-radius: 30px;
+}
+/*css all h1*/
+h1{
+  color: red;
+ text-align: left;
+}
+/*css div desc our services*/
+.new4{
+ background-color: #27677a73;
+ padding: 25px;
+ width: 800px;
+ justify-content: center;
+ margin-left: 300px;
+}
+.copyright{
+  padding: 20px;
+  margin: 100px 300px 250px 300px;
+  background-color: #fdfdfd65;
+}
